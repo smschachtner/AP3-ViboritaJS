@@ -1,0 +1,1 @@
+## Respuesta punto 6

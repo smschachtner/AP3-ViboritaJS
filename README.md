@@ -81,8 +81,8 @@ Los siguientes procedimientos/funciones te serán útiles para la resolución de
     Tené en cuenta que si el `keyCode` recibido no pertenece a niguna de las teclas mencionadas, la función deberá retornar la dirección que tenía la viborita antes de que se presione la tecla.
 
     <details>
-      <summary>AYUDA: Mmm... no me acuerdo: ¿Qué era eso del `keyCode`?</summary>
-      `keyCode`: es un código numérico que se le asigna a cada tecla del teclado para identificarlo y que las aplicaciones puedan detectar qué tecla fue presionada o soltada.
+      <summary>AYUDA: Mmm... no me acuerdo: ¿Qué era eso del keyCode?</summary>
+      keyCode: es un código numérico que se le asigna a cada tecla del teclado para identificarlo y que las aplicaciones puedan detectar qué tecla fue presionada o soltada.
     </details>
 
     <details>
@@ -107,7 +107,7 @@ Los siguientes procedimientos/funciones te serán útiles para la resolución de
     </details>
 
     <details>
-      <summary>AYUDA: !No te olvides de evitar la marcha atrás en las **cuatro** direcciones!</summary>
+      <summary>AYUDA: ¡No te olvides de evitar la marcha atrás en las cuatro direcciones!</summary>
     </details>
 
 3. Si no lo hiciste en los puntos anteriores, modificá el procedimiento `establecerDireccion()` para que también permita controlar la viborita mediante las letras `W`, `A`, `S` y `D`.
@@ -135,7 +135,7 @@ Los siguientes procedimientos/funciones te serán útiles para la resolución de
     - Si se aumenta de nivel se deben aumentar la velocidad del juego, para eso debés aumentar en 2 la variable `fps`.
 
     <details>
-      <summary>AYUDA: ¿Tengo que declarar las variables `puntaje`, `nivel` y `fps`?</summary>
+      <summary>AYUDA: ¿Tengo que declarar las variables puntaje, nivel y fps?</summary>
       No, esas variables ya las declaramos nosotros, solo debés usarlas.
     </details>
 
@@ -166,3 +166,5 @@ Los siguientes procedimientos/funciones te serán útiles para la resolución de
       <summary>AYUDA: ¿Cómo puedo saber si la viborita se enredó/chocó contra si misma?</summary>
       ¿OTRA VEZ? ¡Revisá más arriba (en este enunciado) las funciones que te damos hechas! Hay una que sirve para eso.
     </details>
+
+6. Explique para que sirven los **operadores lógicos** `||` y `&&`.
