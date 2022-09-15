@@ -76,7 +76,8 @@ Los siguientes procedimientos/funciones te serán útiles para la resolución de
     | &uarr;  | 38     |
     | `D`     | 68     |
     | &rarr;  | 39     |
-    | `K`     | 75     |
+    | `S`     | 83     |
+    | &darr;  | 40     |
 
     Tené en cuenta que si el `keyCode` recibido no pertenece a niguna de las teclas mencionadas, la función deberá retornar la dirección que tenía la viborita antes de que se presione la tecla.
 
